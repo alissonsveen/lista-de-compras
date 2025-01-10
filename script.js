@@ -56,4 +56,7 @@ btn.addEventListener("click", () => {
 
     // adiciona o card ao id container.
     document.getElementById('container').appendChild(card)
+
+    // Limpar o campo de input
+    input.value = '';
 })
